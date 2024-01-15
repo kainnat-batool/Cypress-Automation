@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "open": "npx cypress open",
+    "test-spec-script":"npx cypress run --spec cypress/e2e/tests/addToCart.cy.js",
     "run":"npx cypress run" 
   },
   "author": "Kainnat Batool",
