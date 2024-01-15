@@ -11,7 +11,9 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
 
-      - uses: actions/upload-artifact@v4
+      - name: Cypress Reports
+        uses: actions/upload-artifact@v4
+        if: always() # if test case is fail it will still show report in cypress reports 
         with:
             name: mochaAwesome-HTML
             path: cypress/reports/html # or path/to/artifact
