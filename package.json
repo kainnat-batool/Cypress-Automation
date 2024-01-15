@@ -1,0 +1,19 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "npx cypress open",
+    "run":"npx cypress run" 
+  },
+  "author": "Kainnat Batool",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2",
+    "cypress-mochawesome-reporter": "^3.8.0"
+  },
+  "dependencies": {
+    "javascript": "^1.0.0"
+  }
+}
