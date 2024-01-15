@@ -1,4 +1,4 @@
-name: Regression End-to-end tests
+name: Cross Browser Build
 on: push
 jobs:
   cypress-run:
