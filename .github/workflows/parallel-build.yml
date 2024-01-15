@@ -12,6 +12,10 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
             command: npm run test-add-to-Cart
+      - uses: actions/upload-artifact@v4
+        with:
+            name: mochaAwesome-HTML-AddToCart
+            path: cypress/reports/html # or path/to/artifact
 
   Reg-Page-run:
         runs-on: ubuntu-22.04
@@ -24,3 +28,7 @@ jobs:
           uses: cypress-io/github-action@v6
           with:
             command: npm run test-reg-Page
+        - uses: actions/upload-artifact@v4
+          with:
+            name: mochaAwesome-HTML-Registration
+            path: cypress/reports/html # or path/to/artifact
