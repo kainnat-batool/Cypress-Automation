@@ -7,7 +7,8 @@
     "open": "npx cypress open",
     "test-add-to-Cart":"npx cypress run --spec cypress/e2e/tests/addToCart.cy.js",
     "test-reg-Page":"npx cypress run --spec cypress/e2e/tests/registrationPage.cy.js",
-    "run":"npx cypress run" 
+    "run":"npx cypress run" ,
+    "cypress_cloud_run":"npx cypress run --record --key fb451642-1a8e-41bc-be86-eedd5a616457"
   },
   "author": "Kainnat Batool",
   "license": "ISC",

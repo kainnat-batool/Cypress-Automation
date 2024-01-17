@@ -2,6 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',
+  projectId: "2j28f4",// For cypress Cloud
   e2e: {
     baseUrl:'https://naveenautomationlabs.com/opencart/index.php?route=account/login',
     setupNodeEvents(on, config) {
