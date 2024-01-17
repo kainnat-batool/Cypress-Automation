@@ -5,16 +5,19 @@
   "main": "index.js",
   "scripts": {
     "open": "npx cypress open",
-    "test-add-to-Cart":"npx cypress run --spec cypress/e2e/tests/addToCart.cy.js",
-    "test-reg-Page":"npx cypress run --spec cypress/e2e/tests/registrationPage.cy.js",
-    "run":"npx cypress run" ,
-    "cypress_cloud_run":"npx cypress run --record --key fb451642-1a8e-41bc-be86-eedd5a616457"
+    "test-add-to-Cart": "npx cypress run --spec cypress/e2e/tests/addToCart.cy.js",
+    "test-reg-Page": "npx cypress run --spec cypress/e2e/tests/registrationPage.cy.js",
+    "run": "npx cypress run",
+    "cypress_cloud_run": "npx cypress run --record --key fb451642-1a8e-41bc-be86-eedd5a616457"
   },
   "author": "Kainnat Batool",
   "license": "ISC",
   "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
     "cypress": "^13.6.2",
-    "cypress-mochawesome-reporter": "^3.8.0"
+    "cypress-mochawesome-reporter": "^3.8.0",
+    "install": "^0.13.0",
+    "npm": "^10.3.0"
   },
   "dependencies": {
     "javascript": "^1.0.0"
