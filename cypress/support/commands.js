@@ -10,3 +10,13 @@ Cypress.Commands.add('login',(email,password)=>
     cy.get('#input-password').type(password)
     cy.get('input[value="Login"]').click()
 })
+
+Cypress.Commands.add('authHandling',()=>
+{
+    cy.visit('https://authenticationtest.com/HTTPAuth/',{
+            auth:{
+                username:'user',
+                password:"pass"
+            }
+        })
+})
