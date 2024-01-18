@@ -20,3 +20,20 @@ Cypress.Commands.add('authHandling',()=>
             }
         })
 })
+
+
+Cypress.Commands.add('MultiCountry',(country_code)=>
+{
+    switch (country_code)
+    {
+        case '/in/':
+            return 'India'
+        case '/uk/':
+            return 'United Kingdom'
+        case '/ca/':
+            return 'Canada (English)'
+        default:
+            'United Kingdom'
+    }
+    
+})
