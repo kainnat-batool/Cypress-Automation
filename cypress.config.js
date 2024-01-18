@@ -27,7 +27,7 @@ module.exports = defineConfig({
       username:'user',
       password:'pass'
     },
-    viewportHeight:1000,
-    viewportWidth:600
+    viewportHeight:1500,
+    viewportWidth:1000
 
 });
