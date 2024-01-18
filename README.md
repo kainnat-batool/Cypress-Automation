@@ -20,4 +20,8 @@ Handling Auth
 
 Implement Faker Library
 
+Multi Country Application Configuration
+
+Incognito Tab Configuration
+
 Use some Commands
