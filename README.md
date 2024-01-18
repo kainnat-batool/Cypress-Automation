@@ -15,3 +15,9 @@ Customized Scripts in Package.json
 Running using headless mode
 
 GitHub Actions
+
+Handling Auth
+
+Implement Faker Library
+
+Use some Commands
